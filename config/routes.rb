@@ -5,4 +5,7 @@ Rails.application.routes.draw do
 
   resources :recipes
   
+  get '/signup', to: 'users#new'
+  resources :users, except: [:new]
+  
 end

@@ -3,7 +3,9 @@ require 'test_helper'
 class RecipesTest < ActionDispatch::IntegrationTest
   
   def setup
-    @user = User.create!(username: "Index_Test", email: "Index_Text@example.com")
+    @user = User.create!(username: "Index_Test", email: "Index_Text@example.com",
+                      firstname: "First", lastname: "Last",
+                      password: "password", password_confirmation: "password")
     @recipe = Recipe.create(name: "Index Test Recipe One", description: "Index Test Recipe Description One", user: @user)
     @recipe2 = Recipe.create(name: "Index Text Recipe Two", description: "Index Test Recipe Description Two", user: @user)
     @recipe3 = Recipe.create(name: "Index Text Recipe Three", description: "Index Test Recipe Description Three", user: @user)
