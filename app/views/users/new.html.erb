@@ -26,7 +26,7 @@
           <%= f.label :firstname, "First Name" %>
         </div>
         <div class="col-md-8">
-          <%= f.email_field :firstname, class: "form-control", placeholder: "Enter your First Name" %>
+          <%= f.text_field :firstname, class: "form-control", placeholder: "Enter your First Name" %>
         </div>
       </div>
       <div class="form-group">
@@ -34,7 +34,7 @@
           <%= f.label :lastname, "Last Name" %>
         </div>
         <div class="col-md-8">
-          <%= f.email_field :lastname, class: "form-control", placeholder: "Enter your Last Name" %>
+          <%= f.text_field :lastname, class: "form-control", placeholder: "Enter your Last Name" %>
         </div>
       </div>
       <div class="form-group">
@@ -42,7 +42,7 @@
           <%= f.label :website %>
         </div>
         <div class="col-md-8">
-          <%= f.email_field :website, class: "form-control", placeholder: "Enter your Brewery's Website Address" %>
+          <%= f.text_field :website, class: "form-control", placeholder: "Enter your Brewery's Website Address" %>
         </div>
       </div>
       <div class="form-group">
@@ -50,7 +50,7 @@
           <%= f.label :password %>
         </div>
         <div class="col-md-8">
-          <%= f.email_field :password, class: "form-control", placeholder: "Create a password" %>
+          <%= f.password_field :password, class: "form-control", placeholder: "Create a password" %>
         </div>
       </div>
       <div class="form-group">
@@ -58,7 +58,7 @@
           <%= f.label :password_confirmation, "Confrim Password" %>
         </div>
         <div class="col-md-8">
-          <%= f.email_field :password_confirmation, class: "form-control", placeholder: "Confirm password" %>
+          <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Confirm password" %>
         </div>
       </div>
       <div class="form-group">
