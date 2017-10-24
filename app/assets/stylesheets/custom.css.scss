@@ -27,6 +27,16 @@ $navbar-default-bg: #ad7703;
   text-decoration: none;
 }
 
+#hdr-txt {
+  color: #fff;
+}
+
+#hdr-txt:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+
 .jumbotron h1 {
   color: #000000;
   text-align: center;
@@ -117,3 +127,5 @@ margin-top: 0;
   font-weight: bold;
   font-size: 1.25em;
 }
+
+
